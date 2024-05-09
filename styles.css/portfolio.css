@@ -13,9 +13,13 @@ body{
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -33,5 +37,7 @@ nav button{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    border: 0px;
     border-radius: 5px;
+    padding: 15px 35px;
 }
