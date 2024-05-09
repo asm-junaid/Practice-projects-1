@@ -1,0 +1,37 @@
+/* sharesd Stles */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.pcolor{
+    color: #FD6E0A;
+}
+.pbcolor{
+    background-color: #fd6e0a;
+}
+/* navbar styles    */
+
+nav{
+    display: flex;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
