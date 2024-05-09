@@ -1,7 +1,4 @@
 /* sharesd Stles */
-body{
-    
-}
 .pcolor{
     color: #FD6E0A;
 }
@@ -15,6 +12,13 @@ body{
     font-size: 20px;
     font-weight: 700;
     border: 0px;
+}
+.section-tittle{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-details{
+    font-size: 15px;
 }
 /* navbar styles    */
 
@@ -48,28 +52,81 @@ nav a{
 /* Header Styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* Banner Styles */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 0px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .banner img{
-    height: 550px;
-    width: 550px;
+    height: 620px;
+    width: 500px;
 }
 .small-tittle{
     font-size: 30px;
+    margin: 5px 0 5px 0;
 }
 .main-tittle{
     font-size: 60px;
+    margin: 5px 0 5px 0;
 }
 .bn-p{
     font-size: 20px;
 }
 .contact{
     border: 1px solid #fd6e0a;
+}
+
+
+
+/* ---------------------------------Main Section------------------------------ */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+/*--------------------------- About me Section --------------------------------*/
+
+.about-me{
+    border-radius: 10px;
+    background: #fbeee6;
+    padding: 130px;
+    margin: 130px 0;
+}
+.about-body{
+    text-align: center;
+}
+
+.about-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+
+/* ---------------------------What I Do Section-------------------------- */
+
+.what-i-do-body{
+    padding: 0 130px;
+    text-align: center;
+}
+.my-skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.skill-details{
+    font-size: 15px;
+}
+.skills{
+    background-color: white;
+    max-width: 200px;
+}
+.skill-name{
+    font-size: 20px;
 }
