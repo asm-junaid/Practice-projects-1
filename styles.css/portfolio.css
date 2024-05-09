@@ -1,13 +1,20 @@
 /* sharesd Stles */
 body{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+    
 }
 .pcolor{
     color: #FD6E0A;
 }
 .pbcolor{
     background-color: #fd6e0a;
+    color: white;
+}
+.pbutton{
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
 }
 /* navbar styles    */
 
@@ -15,6 +22,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
+    
 
 }
 nav > ul{
@@ -30,14 +39,37 @@ nav a{
     color: black;
 }
 .nav-tittle{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 45px;
     font-weight: 800;
 }
-nav button{
-    color: white;
+
+/* Header Styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+/* Banner Styles */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img{
+    height: 550px;
+    width: 550px;
+}
+.small-tittle{
+    font-size: 30px;
+}
+.main-tittle{
+    font-size: 60px;
+}
+.bn-p{
     font-size: 20px;
-    font-weight: 700;
-    border: 0px;
-    border-radius: 5px;
-    padding: 15px 35px;
+}
+.contact{
+    border: 1px solid #fd6e0a;
 }
