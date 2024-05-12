@@ -14,8 +14,9 @@
     border: 0px;
 }
 .section-tittle{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
+    text-align: center;
 }
 .section-details{
     font-size: 15px;
@@ -133,4 +134,28 @@ main{
 }
 .skill-name{
     font-size: 20px;
+}
+
+/* -------------------Resume Section Design----------------------------- */
+.resumume-body{
+    display: flex;
+    gap: 50px;
+}
+.resume-subtitle{
+    font-size: 25px;
+}
+.degree-name{
+    font-size: 17;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.institute-name{
+    margin-top: 0px;
+    color: #757575;
+    font-size: 14px;
+}
+.cv-bitton{
+    padding-top: 50px;
+    padding-bottom: 130px;
+    text-align: center ;
 }
