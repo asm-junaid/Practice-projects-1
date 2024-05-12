@@ -154,8 +154,47 @@ main{
     color: #757575;
     font-size: 14px;
 }
-.cv-bitton{
+.cv-button{
     padding-top: 50px;
     padding-bottom: 130px;
     text-align: center ;
+}
+
+/* ---------------------footer Section------------------ */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    background: #fdf0e6;
+
+}
+.social-links a{
+    padding: 0 20px 0 0 ;
+}
+.left-section{
+
+}
+.footer-sec-title{
+    font-size: 30px;
+}
+.right-section input{
+    display: block;
+}
+.footer-input{
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 5px;
+}
+.footer-textarea{
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.footer-submit{
+    margin-top: 20px;
+    padding: 12px 35px;
+    font-size: 15px;
 }
